@@ -1,0 +1,172 @@
+
+/*containers*/
+.container{
+    border: 3px solid black;
+    justify-content: center;
+    display:flex;
+    flex-direction:row-reverse;
+    width: 400px;
+    height: 400px;
+    border-radius: 15%;
+    font-size: 20px;
+    background-color: rgb(255, 249, 240);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 40px; /* half of you height */
+    margin-left: -200px; /* half of you width */
+}
+
+.container:hover {
+    opacity:80%;
+    box-shadow: 2px 3px 40px black;
+}
+
+body {
+    background-image: url("Forest-Background-Desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notes-body {
+    background-image: url("night-forest-background-notes-section.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    font-size: 20px;
+    width: 700px;
+    text-decoration: none;
+    border-radius: 25px 0 25px 0;
+    background-color: linen;
+    border-color: black;
+    border-style:groove;
+    height: 320px;
+    width: 450px;
+    font-weight: 900;
+    padding-top: 65px;
+    font-size: 24px;
+}
+
+.Signin_out_button {
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border: dotted;
+}
+
+#togallery {
+    text-decoration:underline;
+    font-size: 25px;
+    font-family: Cochin;
+    color:aliceblue;
+    background-color: black;
+}
+
+.form1 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 450px;
+    margin-top: 40px;
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#input_desc {
+    height:45px;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    text-shadow: 2px 3px 4px purple;
+    font-size: 45px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-weight:700;
+    background-color: black;
+}
+
+#gallerynote1 {
+    background: rgb(255, 218, 218);
+    border-radius: 0 50px 0 50px;
+    font-size: 20px;
+    height:250px;
+    width:500px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 40px; /* half of you height */
+    margin-left: -180px; /* half of you width */
+}
+
+#gallerynote1:hover {
+    font-weight: bolder;
+    opacity: 75%;
+}
+
+
+#gallerynote2 {
+    background: rgb(255, 245, 218);
+    border-radius: 0 50px 0 50px;
+    font-size: 20px;
+    height:250px;
+    width:500px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 40px; /* half of the height */
+    margin-left: -230px; /* half of the width */
+}
+
+#gallerynote2:hover {
+    font-weight: bolder;
+    opacity: 75%;
+}
+
+#gallerynote3 {
+    background: rgb(255, 218, 218);
+    border-radius: 0 50px 0 50px;
+    font-size: 20px;
+    height:250px;
+    width:500px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 40px; /* half of you height */
+    margin-left: -180px; /* half of you width */
+}
+
+#gallerynote3:hover {
+    font-weight: bolder;
+    opacity: 75%;
+}
+
+#gallerynote4 {
+    background: rgb(255, 245, 218);
+    border-radius: 0 50px 0 50px;
+    font-size: 20px;
+    height:250px;
+    width:500px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 40px; /* half of you height */
+    margin-left: -230px; /* half of you width */
+}
+
+#gallerynote4:hover {
+    font-weight: bolder;
+    opacity: 75%;
+}

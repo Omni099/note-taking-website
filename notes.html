@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="notes-body">
+    <h1>My Notes</h1>
+    <div align="center">
+        <a href="gallery.html" onclick="renderNotes()" id="togallery">Tap to go to your Notes Gallery!!!</a>
+        <div align="center">
+            <form class="form1">
+                <h2>Note 1</h2>
+                <label>Date Due: </label><br>
+                <input type="date" id="input_date" placeholder="Enter date..."><br>
+                <label>Title: </label><br>
+                <input type="text" id="input_title" placeholder="Enter title..."><br>
+                <label>Description: </label><br>
+                <textarea type="text" id="input_desc" placeholder="Enter description..."></textarea><br><br>
+                <button type="button" onclick="createNote()">Create Note</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Note 1</h2>
+            <h3 id="note1_title"></h3><br>
+            <p1 id="note1_date"></p1><br>
+            <p1 id="note1_desc"></p1>
+        </div>
+    </div>
+    <div align="center">
+        <form class="form1">
+            <h2>Note 2</h2>
+            <label>Date Due: </label><br>
+            <input type="date" id="input2_date" placeholder="Enter date..."><br>
+            <label>Title: </label><br>
+            <input type="text" id="input2_title" placeholder="Enter title..."><br>
+            <label>Description: </label><br>
+            <textarea type="text" id="input2_desc" placeholder="Enter description..."></textarea><br><br>
+            <button type="button" onclick="createNote()">Create Note</button>
+        </form>
+    </div>  
+    <div class="container">
+        <div>
+            <h2>Note 2</h2>
+            <h3 id="note2_title"></h3><br>
+            <p1 id="note2_date"></p1><br>
+            <p1 id="note2_desc"></p1>
+        </div>
+    </div>
+    <div align="center">
+        <form class="form1">
+            <h2>Note 3</h2>
+            <label>Date Due: </label><br>
+            <input type="date" id="input3_date" placeholder="Enter date..."><br>
+            <label>Title: </label><br>
+            <input type="text" id="input3_title" placeholder="Enter title..."><br>
+            <label>Description: </label><br>
+            <textarea type="text" id="input3_desc" placeholder="Enter description..."></textarea><br><br>
+            <button type="button" onclick="createNote()">Create Note</button>
+        </form>
+    </div>  
+    <div class="container">
+        <div>
+            <h2>Note 3</h2>
+            <h3 id="note3_title"></h3><br>
+            <p1 id="note3_date"></p1><br>
+            <p1 id="note3_desc"></p1>
+        </div>
+    </div>
+    <div align="center">
+        <form class="form1">
+            <h2>Note 4</h2>
+            <label>Date Due: </label><br>
+            <input type="date" id="input4_date" placeholder="Enter date..."><br>
+            <label>Title: </label><br>
+            <input type="text" id="input4_title" placeholder="Enter title..."><br>
+            <label>Description: </label><br>
+            <textarea type="text" id="input4_desc" placeholder="Enter description..."></textarea><br><br>
+            <button type="button" onclick="createNote()">Create Note</button>
+        </form>
+    </div>  
+    <div class="container">
+        <div>
+            <h2>Note 3</h2>
+            <h3 id="note4_title"></h3><br>
+            <p1 id="note4_date"></p1><br>
+            <p1 id="note4_desc"></p1>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
